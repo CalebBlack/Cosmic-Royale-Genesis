@@ -1,8 +1,7 @@
 import Babylon from 'babylonjs';
+import setupResizing from './functions/setupResizing';
 function setupGame(gameCanvas){
   var engine = new Babylon.Engine(gameCanvas, true);
-  window.addEventListener('resize', function(){
-      engine.resize();
-  });
+  setupResizing(engine);
 }
 export default setupGame;
