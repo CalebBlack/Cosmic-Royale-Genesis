@@ -1,5 +1,6 @@
 import React from 'react';
 import setupGame from './setupGame';
+import './game.css';
 
 class Game extends React.Component {
   componentDidMount(){
