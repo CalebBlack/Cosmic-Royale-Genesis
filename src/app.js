@@ -13,9 +13,9 @@ class App extends Component {
       <div id='app' className="app">
         <BrowserRouter>
           <Switch>
+            <Route exact path='/play' component={Game}/>
             {pageRoutes}
-            <Route path='play' component={Game}/>
-            <Route path='/' component={DeadEnd}/>
+            <Route component={DeadEnd}/>
           </Switch>
         </BrowserRouter>
       </div>
