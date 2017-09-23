@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import pageMap from './pages/map';
-import Game from './game';
+import Game from './game/game';
 import DeadEnd from './deadEnd';
 import './app.css';
 
