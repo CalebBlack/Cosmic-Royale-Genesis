@@ -1,0 +1,14 @@
+{
+  "name": "react-road-server",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "*",
+    "helmet": "*",
+    "mongoose": "*",
+    "body-parser": "*",
+    "bcrypt": "*"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
