@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import pageMap from './pages/map';
 import Game from './game/game';
-import DeadEnd from './deadEnd';
+import DeadEnd from './pages/deadEnd';
 import './app.css';
 
 const pageRoutes = pageMap.map((page)=>{return (<Route exact path={page[1]} component={page[0]}/>)})
