@@ -4,10 +4,10 @@ import './game.css';
 
 class Game extends React.Component {
   componentDidMount(){
-    setupGame(this.game);
+    setupGame(this.gameCanvas);
   }
   render(){
-    return (<canvas ref={(gameCanvas)=>{this.game = gameCanvas;}} className='game' id='game'/>);
+    return (<canvas ref={(gameCanvas)=>{this.gameCanvas = gameCanvas;}} className='game' id='game'/>);
   }
 }
 export default Game;
